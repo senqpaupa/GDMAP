@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication</title>
+    <link rel="stylesheet" href="/frontend/css/autores.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <input type="checkbox" id="form-switch" class="form-switch" hidden>
+            
+            <form id="login-form" class="form">
+                <h2>Welcome Back</h2>
+                <div class="input-group">
+                    <input type="email" required>
+                    <label>Email Address</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="options">
+                    <label class="remember">
+                        <input type="checkbox">
+                        <span>Remember me</span>
+                    </label>
+                    <a href="#" class="forgot">Forgot password?</a>
+                </div>
+                <button type="submit">Sign In</button>
+                <div class="social-login">
+                    <p>Or continue with</p>
+                    <div class="social-buttons">
+                        <a href="#" class="social-button">
+                            <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google">
+                        </a>
+                        <a href="#" class="social-button">
+                            <img src="https://www.svgrepo.com/show/475647/facebook-color.svg" alt="Facebook">
+                        </a>
+                        <a href="#" class="social-button">
+                            <img src="https://www.svgrepo.com/show/475689/twitter-color.svg" alt="Twitter">
+                        </a>
+                    </div>
+                </div>
+                <p class="switch-text">
+                    Don't have an account? 
+                    <label for="form-switch" class="switch-link">Sign Up</label>
+                </p>
+            </form>
+
+            <form id="register-form" class="form">
+                <h2>Create Account</h2>
+                <div class="input-group">
+                    <input type="text" required>
+                    <label>Full Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" required>
+                    <label>Email Address</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <button type="submit">Sign Up</button>
+                <div class="social-login">
+                    <p>Or continue with</p>
+                    <div class="social-buttons">
+                        <a href="#" class="social-button">
+                            <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google">
+                        </a>
+                        <a href="#" class="social-button">
+                            <img src="https://www.svgrepo.com/show/475647/facebook-color.svg" alt="Facebook">
+                        </a>
+                        <a href="#" class="social-button">
+                            <img src="https://www.svgrepo.com/show/475689/twitter-color.svg" alt="Twitter">
+                        </a>
+                    </div>
+                </div>
+                <p class="switch-text">
+                    Already have an account? 
+                    <label for="form-switch" class="switch-link">Sign In</label>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
